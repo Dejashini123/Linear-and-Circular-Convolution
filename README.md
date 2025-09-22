@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 ## PROGRAM (Linear Convolution): 
+```
 
 // Linear Convolution
 // --- Linear Convolution using FFT ---
@@ -47,9 +48,11 @@ xtitle("Impulse Response h(n)", "n", "Amplitude");
 subplot(3,1,3);
 plot2d3(n, y_lin);
 xtitle("Linear Convolution Result y(n)", "n", "Amplitude");
+```
 
 
 ## PROGRAM (Circular Convolution): 
+```
 
 // Circular Convolution
 
@@ -89,6 +92,7 @@ xtitle("Input Sequence x2(n)", "n", "Amplitude");
 subplot(3,1,3);
 plot2d3(n, y_circ);            // circular convolution result
 xtitle("Circular Convolution Result", "n", "Amplitude");
+```
 
 
 ## OUTPUT (Linear Convolution): 
